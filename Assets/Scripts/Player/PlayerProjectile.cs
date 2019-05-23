@@ -35,7 +35,7 @@ public class PlayerProjectile : MonoBehaviour {
 	}
 
 	private void firePlasma() {
-        if (fireTimer <= 0f) {
+        /*if (fireTimer <= 0f) {
             fireTimer = fireRate;
 
 			// different projectiles were removed, as the inventory system will change
@@ -43,6 +43,6 @@ public class PlayerProjectile : MonoBehaviour {
 			GameObject p = Instantiate(projectiles[0], player.hand.transform.position, Quaternion.identity);
 
            
-        }
+        }*/
     }
 }
